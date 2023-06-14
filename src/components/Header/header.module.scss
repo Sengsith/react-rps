@@ -1,0 +1,14 @@
+@use "../../global-styles/variables.scss" as *;
+
+.header_wrapper {
+  border: 2px solid $header-outline;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_title {
+  text-transform: uppercase;
+  text-align: start;
+  display: inline-block;
+}

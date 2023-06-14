@@ -1,0 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img, svg {
+  max-width: 100%;
+}
